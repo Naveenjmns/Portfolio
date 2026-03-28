@@ -33,7 +33,7 @@ const Contact = () => {
       <h2 className="text-3xl font-semibold mb-6">Contact</h2>
       <div className="mb-6 space-x-4">
         <a href="mailto:naveenkumarjmns@gmail.com" className="text-indigo-600 dark:text-indigo-400 hover:underline">Email</a>
-        <a href="www.linkedin.com/in/naveen-kumar-j-04754b295" target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-400 hover:underline">LinkedIn</a>
+        <a href="https://www.linkedin.com/in/naveen-kumar-j-04754b295/" target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-400 hover:underline">LinkedIn</a>
         <a href="https://github.com/Naveenjmns" target="_blank" rel="noopener noreferrer" className="text-indigo-600 dark:text-indigo-400 hover:underline">GitHub</a>
       </div>
       <form onSubmit={handleSubmit} className="max-w-md space-y-4">

@@ -1,7 +1,7 @@
 import React from 'react';
 
 const Resume = () => {
-  const resumeLink = '/Resume-NaveenKumarJ.pdf'; // Placeholder link, replace with actual PDF link later
+  const resumeLink = process.env.PUBLIC_URL + '/Resume-NaveenKumarJ.pdf'; // Placeholder link, replace with actual PDF link later
 
   return (
     <section className="mb-12">
